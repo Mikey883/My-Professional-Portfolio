@@ -111,6 +111,10 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
+#about-me p {
+    margin-right: 100px;
+}
+
 .sections {
     display: flex;
     background-color: white;
@@ -146,20 +150,24 @@ header nav ul li a:hover {
     border-left: 5px solid rgb(34, 126, 95);
 }
 
-.head-image {
-    background-color: white;
-}
-
 .warrior img {
-    width: 738px;
-    height: 320px;
+    width: 728px;
+    height: 230px;
     margin: 10px;
     border: 5px solid rgb(62, 233, 176);
+}
+
+.head-image {
+    background-color: white;
 }
 
 .head-image img {
     width: 1500px;
     height: 650px;
+}
+
+.head-image img:hover {
+    filter: grayscale(20%) blur(2px) hue-rotate(40deg);
 }
 
 .sections h3 {
@@ -180,4 +188,216 @@ header nav ul li a:hover {
     display: flex;
     background-color: white;
     justify-content: center;
+}
+
+.image-text {
+    position: relative;
+    margin: 0px;
+    background-color: white;
+}
+
+.image-text h3 {
+    position: absolute;
+    background-color: rgb(62, 233, 176);
+    top: 550px;
+    left: 15px;
+    width: 200px;
+    height: 90px;
+    font-size: 35px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    z-index: 5;
+}
+
+.image-text h4 {
+    position: absolute;
+    background-color: transparent;
+    top: 605px;
+    left: 15px;
+    height: 80px;   
+    font-size: 20px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    z-index: 5;
+}
+
+.led-wall {
+    background-color: white;
+}
+
+.led-wall-text {
+    background-color: white;
+    position: relative;
+    margin: 0px;
+}
+
+.led-wall-text h3 {
+    position: absolute;
+    background-color: rgb(62, 233, 176);
+    top: 130px;
+    left: 15px;
+    width: 160px;
+    height: 90px;
+    font-size: 35px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    z-index: 5;
+}
+
+.led-wall-text h4 {
+    position: absolute;
+    background-color: transparent;
+    top: 185px;
+    left: 15px;
+    height: 80px;   
+    font-size: 20px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    z-index: 5;
+}
+
+.led-wall img:hover {
+    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
+}
+
+.pastel-puzzle {
+    background-color: white;
+}
+
+.pastel-puzzle-text {
+    background-color: white;
+    position: relative;
+    margin: 0px;
+}
+
+.pastel-puzzle-text h3 {
+    position: absolute;
+    background-color: rgb(62, 233, 176);
+    top: 130px;
+    left: 15px;
+    width: 245px;
+    height: 90px;
+    font-size: 35px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    z-index: 5;
+}
+
+.pastel-puzzle-text h4 {
+    position: absolute;
+    background-color: transparent;
+    top: 185px;
+    left: 15px;
+    height: 80px;   
+    font-size: 20px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    z-index: 5;
+}
+
+.pastel-puzzle img:hover {
+    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
+}
+
+.calculator {
+    background-color: white;
+}
+
+.calculator-text {
+    background-color: white;
+    position: relative;
+    margin: 0px;
+}
+
+.calculator-text h3 {
+    position: absolute;
+    background-color: rgb(62, 233, 176);
+    top: 130px;
+    left: 15px;
+    width: 210px;
+    height: 90px;
+    font-size: 35px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    z-index: 5;
+}
+
+.calculator-text h4 {
+    position: absolute;
+    background-color: transparent;
+    top: 185px;
+    left: 15px;
+    height: 80px;   
+    font-size: 20px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    z-index: 5;
+}
+
+.calculator img:hover {
+    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
+}
+
+.run-buddy {
+    background-color: white;
+}
+
+.run-buddy-text {
+    background-color: white;
+    position: relative;
+    margin: 0px;
+}
+
+.run-buddy-text h3 {
+    position: absolute;
+    background-color: rgb(62, 233, 176);
+    top: 130px;
+    left: 15px;
+    width: 185px;
+    height: 90px;
+    font-size: 35px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    z-index: 5;
+}
+
+.run-buddy-text h4 {
+    position: absolute;
+    background-color: transparent;
+    top: 185px;
+    left: 15px;
+    height: 80px;   
+    font-size: 20px;
+    font-family: 'Corbel';
+    color: rgb(46, 46, 46);
+    text-align: left;
+    padding-left: 20px;
+    z-index: 5;
+}
+
+.run-buddy img:hover {
+    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
 }
