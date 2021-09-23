@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0px 0px 0px 5px;
-    box-sizing: border-box;
     background-color: rgb(46, 46, 46);
 }
 
@@ -41,6 +40,8 @@ header nav {
     display: flex;
     align-items: flex-end;
     align-items: center;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 header nav ul {
@@ -60,7 +61,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 40px;
     text-decoration: none;
     background-size: 10px;
     text-shadow: 0 0 13px rgba(0, 0, 0, 0.705);
@@ -110,7 +111,7 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-.about-me {
+.sections {
     display: flex;
     background-color: white;
     flex-direction: row;
@@ -118,41 +119,65 @@ header nav ul li a:hover {
     width: 75vw;
 }
 
-.about-me h2 {
+.sections h2 {
     display: flex;
     background-color: white;
-    border-right: 4px solid rgb(62, 233, 176);
-    margin: 20px 10px 15px 20px;
+    margin: 20px 10px 15px 0px;
     justify-content: flex-end;
-    padding: 15px 25px 0px 0px;
+    padding: 15px 5px 0px 0px;
     font-family: 'Corbel';
     height: 230px;
     text-align: right;
-    font-size: 50px;
-    color: rgb(46, 46, 46);
+    font-size: 80px;
+    color: rgb(34, 126, 95);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
 }
 
 .warrior {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: flex-start;
     background-color: white;
-    padding: 15px 10px 0px 0px;
-    margin: 20px 10px 15px 20px;
+    padding: 15px 10px 0px 50px;
+    margin: 50px 10px 70px 0px;
     color: rgb(46, 46, 46);
     font-family: 'Corbel';
+    border-left: 5px solid rgb(34, 126, 95);
 }
 
-.about-me h3 {
+.head-image {
+    background-color: white;
+}
+
+.warrior img {
+    width: 738px;
+    height: 320px;
+    margin: 10px;
+    border: 5px solid rgb(62, 233, 176);
+}
+
+.head-image img {
+    width: 1500px;
+    height: 650px;
+}
+
+.sections h3 {
     background-color: white;
     margin-bottom: 15px;
 }
 
-.about-me p {
+.sections p {
+    background-color: white;
+    font-size: 18px;
+}
+
+.sections a {
     background-color: white;
 }
 
-.about-me a {
+#work {
+    display: flex;
     background-color: white;
+    justify-content: center;
 }
