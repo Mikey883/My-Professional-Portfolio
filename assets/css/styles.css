@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0px 0px 0px 5px;
+    box-sizing: border-box;
+    background-color: rgb(46, 46, 46);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    font-family: 'Corbel';
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 3.5em;
+    color: rgb(46, 46, 46);
+    background-color: rgb(62, 233, 176);
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    padding: 20px;
+    margin: 15px 0px 15px 0px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+}
+
+header a {
+    color: rgb(62, 233, 176);
+}
+
+header nav {
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    border-bottom: 4px solid rgb(62, 233, 176);
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2vw;
+    text-decoration: none;
+    background-size: 10px;
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.705);
+}
+
+header nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    border-bottom: 4px solid rgb(255, 255, 255)
+}
+
+.hero {
+    background-image: url("../images/hero-img8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 0 0 0 10px;
+    height: 300px;
+}
+
+.hero-head {
+    width: 80%;
+    color: rgb(46, 46, 46);
+    font-size: 35px;
+    display: flex;
+    background-color: rgba(62, 233, 176, 0.6);
+    justify-content: center;
+    width: 550px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
+    margin: 190px 50px 0px 0px;
+}
+
+.hero-head h2 {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Corbel';
+}
+
+#about-me {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.about-me {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    width: 75vw;
+}
+
+.about-me h2 {
+    display: flex;
+    background-color: white;
+    border-right: 4px solid rgb(62, 233, 176);
+    margin: 20px 10px 15px 20px;
+    justify-content: flex-end;
+    padding: 15px 25px 0px 0px;
+    font-family: 'Corbel';
+    height: 230px;
+    text-align: right;
+    font-size: 50px;
+    color: rgb(46, 46, 46);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
+}
+
+.warrior {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 15px 10px 0px 0px;
+    margin: 20px 10px 15px 20px;
+    color: rgb(46, 46, 46);
+    font-family: 'Corbel';
+}
+
+.about-me h3 {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.about-me p {
+    background-color: white;
+}
+
+.about-me a {
+    background-color: white;
+}
