@@ -4,6 +4,10 @@
     background-color: rgb(46, 46, 46);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -69,8 +73,8 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: rgb(255, 255, 255);
-    text-shadow: none;
-    border-bottom: 4px solid rgb(255, 255, 255)
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.705);
+    border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 .hero {
@@ -132,7 +136,7 @@ header nav ul li a:hover {
     font-family: 'Corbel';
     height: 230px;
     text-align: right;
-    font-size: 80px;
+    font-size: 75px;
     color: rgb(34, 126, 95);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
 }
@@ -143,15 +147,15 @@ header nav ul li a:hover {
     flex-direction: row;
     align-items: flex-start;
     background-color: white;
-    padding: 15px 10px 0px 50px;
-    margin: 50px 10px 70px 0px;
+    padding: 15px 0px 0px 50px;
+    margin: 50px 10px 40px 0px;
     color: rgb(46, 46, 46);
     font-family: 'Corbel';
     border-left: 5px solid rgb(34, 126, 95);
 }
 
 .warrior img {
-    width: 728px;
+    width: 528px;
     height: 230px;
     margin: 10px;
     border: 5px solid rgb(62, 233, 176);
@@ -162,12 +166,12 @@ header nav ul li a:hover {
 }
 
 .head-image img {
-    width: 1500px;
+    width: 1100px;
     height: 650px;
 }
 
 .head-image img:hover {
-    filter: grayscale(20%) blur(2px) hue-rotate(40deg);
+    filter: saturate(120%) blur(3px) hue-rotate(40deg) drop-shadow(14px 14px 18px black) contrast(110%);
 }
 
 .sections h3 {
@@ -188,6 +192,10 @@ header nav ul li a:hover {
     display: flex;
     background-color: white;
     justify-content: center;
+}
+
+#work h2 {
+    margin-left: 30px;
 }
 
 .image-text {
@@ -267,7 +275,7 @@ header nav ul li a:hover {
 }
 
 .led-wall img:hover {
-    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
+    filter: saturate(120%) blur(3px) hue-rotate(40deg) drop-shadow(14px 14px 18px black) contrast(110%);
 }
 
 .pastel-puzzle {
@@ -311,7 +319,7 @@ header nav ul li a:hover {
 }
 
 .pastel-puzzle img:hover {
-    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
+    filter: saturate(120%) blur(3px) hue-rotate(40deg) drop-shadow(14px 14px 18px black) contrast(110%);
 }
 
 .calculator {
@@ -355,7 +363,7 @@ header nav ul li a:hover {
 }
 
 .calculator img:hover {
-    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
+    filter: saturate(120%) blur(3px) hue-rotate(40deg) drop-shadow(14px 14px 18px black) contrast(110%);
 }
 
 .run-buddy {
@@ -399,5 +407,44 @@ header nav ul li a:hover {
 }
 
 .run-buddy img:hover {
-    filter: grayscale(20%) blur(2px) brightness(120%) contrast(150%) hue-rotate(40deg);
+    filter: saturate(120%) blur(3px) hue-rotate(40deg) drop-shadow(14px 14px 18px black) contrast(110%);
+}
+
+#contact-me {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+#contact-me h2 {
+    margin-left: -85px;
+}
+
+#contact-me h3 {
+    font-size: 40px;
+    background-color: white;
+    color: rgb(46, 46, 46);
+    margin-right: 40px;
+    padding-top: 60px;
+}
+
+#contact-me h3 a {
+    border-bottom: 4px solid rgb(62, 233, 176);
+    padding-top: 10px;
+}
+
+#contact-me a:link {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+
+#contact-me a:visited {
+    text-decoration: none; 
+    color: rgb(46, 46, 46);
+}
+
+#contact-me h3 a:hover {
+    color: rgb(2, 2, 2);
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.342);
+    border-bottom: 4px solid rgb(46, 46, 46);
 }
