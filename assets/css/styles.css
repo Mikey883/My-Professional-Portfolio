@@ -477,6 +477,33 @@ header nav ul li a:hover {
 
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1440px){
+    #about-me h2 {
+        margin-left: -150px;
+    }
+
+    #about-me p {
+        margin-right: 0px;
+    }
+
+    #work {
+        flex-wrap: none;
+    }
+
+    #work h2 {
+        margin-left: 30px;
+    }
+
+    #contact-me h2 {
+        margin-left: -200px;
+    }
+
+    #contact-me h3 {
+        margin-right: 40px;
+        font-size: 60px;
+    }
+}
+
 @media screen and (max-width: 980px) {
     header {
         flex-wrap: nowrap;
