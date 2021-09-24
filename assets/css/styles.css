@@ -465,6 +465,18 @@ header nav ul li a:hover {
     border-bottom: 4px solid rgb(46, 46, 46);
 }
 
+@media screen and (max-width: 2560px) {
+    #contact-me h2 {
+        margin-left: -500px;
+    }
+
+    #contact-me h3 {
+        font-size: 75px;
+        margin-right: 75px;
+    }
+
+}
+
 @media screen and (max-width: 980px) {
     header {
         flex-wrap: nowrap;
