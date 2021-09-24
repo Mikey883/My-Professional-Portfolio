@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0px 0px 0px 5px;
     background-color: rgb(46, 46, 46);
+    box-sizing: border-box;
 }
 
 html {
@@ -12,7 +13,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-size: cover;
@@ -378,7 +378,7 @@ header nav ul li a:hover {
     background-color: rgb(62, 233, 176);
     top: 130px;
     left: 15px;
-    width: 185px;
+    width: 195px;
     height: 90px;
     font-size: 35px;
     font-family: 'Corbel';
@@ -449,138 +449,174 @@ header nav ul li a:hover {
 
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
-        justify-content:space-between;
-        position: relative;
-    }
-    
+        flex-wrap: nowrap;
+    } 
+
     header h1 {
-        width: 30%;
+        width: 20%;
         text-align: center;
+      }
+
+    header nav {
+        margin-right: 80px;
     }
-    
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
+
+    header nav ul li a {
+        padding: 0px;
+    }
+
+    .head-image img {
+        width: 95%;
+    }
+
+    .hero {
         justify-content: center;
     }
 
     #about-me h2 {
-        margin-left: -118px;
-    }
-
-    .warrior  {
-        width: 80%;
-    }
-      
-    .warrior {
-        text-align: center;
-    }
-
-    #about-me h3 {
-        margin-left: 80px;
-    }
-
-    .head-image img {
-        width: 100%;
-        height: 650px;
-    }
-
-    #contact-me h2 {
-        margin-left: -110px;
+        margin-left: -55px;
     }
     
+
+    #contact-me h2 {
+        margin-left: -100px;
+    }
   }
 
   @media screen and (max-width: 768px) {
     header {
-        padding-bottom: 0;
-        justify-content:space-between;
-        position: relative;
+        position: static;
     }
-    
+
     header h1 {
-        width: 20%;
+        width: 25%;
         text-align: center;
     }
-    
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
+
+    header nav {
+        margin-right: 50px;
     }
 
-    #about-me h2 {
-        margin-left: 100%;
+    .nav-link {
+        margin-right: 5px;
     }
 
-    .warrior  {
-        width: 80%;
+    header nav ul li a {
+        font-size: 30px;
     }
-      
+
+    #about-me {
+        margin-right: -20px;
+    }
+
+    .sections h2 {
+        font-size: 50px;
+    }
+
     .warrior {
-        text-align: center;
-    }
-
-    #about-me h3 {
-        margin-left: 80px;
+        width: 80%;
     }
 
     .head-image img {
         width: 100%;
-        height: 650px;
+    }
+
+    .warrior img {
+        width: 100%;
+    }
+
+    #contact-me {
+        justify-content: end;  
+    }
+
+    #contact-me h3 {
+        width: 50%;
     }
 
     #contact-me h2 {
-        margin-left: -110px;
+        margin-left: -125px;
+    }
+
+    .email, .phone, .github, .twitter {
+        font-size: 30px;
     }
 
   }
 
   @media screen and (max-width: 575px) {
-    header {
-        padding-bottom: 0;
-        justify-content:center;
-        flex-direction: column;
-    }
+      header {
+          display: inline;
+          justify-content: space-around;
+          text-align: center;
+      }
 
-    header h1 {
-        width: 20%;
-        text-align: center;
+      header h1 {
+        width: 102.5%;
+        justify-content: space-around;
     }
 
     header nav {
-        flex-direction: column;
+        width: 110%;
+        justify-content: space-around;
+        margin-left: -25px;
     }
 
-    header nav ul {
-        margin-top: 20px;
-        margin-left: 300px;
-        width: 50%;
-        justify-content:flex-end;
+      .hero {
+          margin-top: 20px;
+          width: 110%;
+      }
+
+      .sections h2 {
+          font-size: 50px;
+
+      }
+
+      .warrior {
+        width: 110%;
+      }
+
+      .warrior img {
+        width: 170%;
     }
 
-    .section-title {
-        width: 95%;
-    }
-    
-    .intro p {
-        width: 100%;
-    }
-    
-    .trainer {
-        flex: 0 100%;
-    }
-    
-    .contact-info {
-        text-align: center;
-    }
-    
-    .contact-info > * {
-        flex: 0 100%;
+      #about-me {
+        width: 110%;
+          justify-content: space-around;
+      }
+
+      #about-me h2 {
+          margin-left: -80px;
+      }
+
+      #about-me h3 {
+        margin: 0px 0px 20px 0px;
+      }
+
+      #about-me p {
+          margin: 0px;
+      }
+
+      #work {
+        width: 110%;
+          justify-content: start; 
+      }
+
+      #contact-me {
+          width: 110%;
+          justify-content: start; 
+      }
+
+      .image-text h4 {
+          width: 250px;
+      }
+
+      .pastel-puzzle h4 {
+        width: 250px;
+      }
+
+      #contact-me h2 {
+        margin-left: 190px;
+        font-size: 45px;
     }
 
-    .contact-form {
-        order: 3;
-    }
   }
