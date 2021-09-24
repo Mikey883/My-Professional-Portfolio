@@ -432,14 +432,14 @@ header nav ul li a:hover {
 }
 
 #contact-me h2 {
-    margin-left: -85px;
+    margin-left: -200px;
 }
 
 #contact-me h3 {
-    font-size: 40px;
+    font-size: 60px;
     background-color: white;
     color: rgb(46, 46, 46);
-    margin-right: 40px;
+    margin-right: 70px;
     padding-top: 60px;
 }
 
@@ -624,6 +624,10 @@ header nav ul li a:hover {
           justify-content: start; 
       }
 
+      #contact-me h2 {
+        margin-left: 1px;
+        }
+
       .image-text h4 {
           width: 250px;
       }
@@ -676,6 +680,6 @@ header nav ul li a:hover {
     }  
 
     #contact-me h2 {
-        margin-left: 100px;
+        margin-left: 120px;
     }
   }
