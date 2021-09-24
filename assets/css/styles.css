@@ -478,6 +478,10 @@ header nav ul li a:hover {
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1440px){
+    header h1 {
+        width: 30%;
+    }
+    
     #about-me h2 {
         margin-left: -150px;
     }
@@ -495,14 +499,14 @@ header nav ul li a:hover {
     }
 
     #contact-me h2 {
-        margin-left: -200px;
+        margin-left: -190px;
     }
 
     #contact-me h3 {
         margin-right: 40px;
         font-size: 60px;
     }
-    
+
     .image-text h3 {
         width: 20%;
     }
