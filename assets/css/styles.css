@@ -534,7 +534,7 @@ header nav ul li a:hover {
     }
 
     #contact-me h2 {
-        margin-left: -125px;
+        margin-left: -145px;
     }
 
     .email, .phone, .github, .twitter {
@@ -615,8 +615,49 @@ header nav ul li a:hover {
       }
 
       #contact-me h2 {
-        margin-left: 190px;
         font-size: 45px;
     }
 
+  }
+
+  @media screen and (max-width: 375px) {
+    header h1 {
+        width: 145%;
+    }
+    header nav {
+        width: 150%;
+    }
+
+    .hero {
+        width: 150%;
+    }
+
+    .hero-head h2 {
+        font-size: 40px;
+    }
+
+    .warrior {
+        width: 150%;
+    }
+
+    .warrior img {
+        width: 570%;
+    }
+
+    #about-me {
+        width: 150%;
+    }
+
+    #work {
+        width: 150%;
+    }
+
+    #contact-me {
+        width: 150%;
+        justify-content: start;
+    }  
+
+    #contact-me h2 {
+        margin-left: 100px;
+    }
   }
