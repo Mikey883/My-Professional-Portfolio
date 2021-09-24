@@ -116,6 +116,24 @@ header nav ul li a:hover {
     margin-right: 100px;
 }
 
+#about-me a:link {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    border-bottom: 4px solid rgb(46, 46, 46);
+}
+
+#about-me a:visited {
+    text-decoration: none; 
+    color: rgb(46, 46, 46);
+    border-bottom: 4px solid rgb(46, 46, 46);
+}
+
+#about-me a:hover {
+    color: rgb(62, 233, 176);
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.301);
+    border-bottom: 4px solid rgb(62, 233, 176);
+}
+
 .sections {
     display: flex;
     background-color: white;
