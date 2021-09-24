@@ -502,6 +502,26 @@ header nav ul li a:hover {
         margin-right: 40px;
         font-size: 60px;
     }
+    
+    .image-text h3 {
+        width: 20%;
+    }
+
+    .led-wall-text h3 {
+        width: 35%;
+    }
+
+    .calculator-text h3 {
+        width: 40%;
+    }
+
+    .pastel-puzzle-text h3 {
+        width: 47%;
+    }
+
+    .run-buddy-text h3 {
+        width: 37%;
+    }
 }
 
 @media screen and (max-width: 980px) {
